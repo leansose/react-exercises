@@ -1,13 +1,15 @@
 # O que aprendi
 
 ## O que fiz
-<!-- Descreva, com suas próprias palavras, o que você fez neste exercício. -->
+criei pasta components, criei componente Card, e interface CardProps, com children, estilizei com tailwind
+
+Importei componente na App e usei o Card como tag html para editar o Hello, World
 
 ## Dificuldades encontradas
 <!-- Quais problemas ou erros apareceram durante o exercício? -->
 
 ## O que aprendi
-<!-- O que você aprendeu com este exercício? -->
+Cria um componente com children que faz com que se torne uma componente reutilizável
 
 ## 3 coisas que poderia ter feito para suprir as dificuldades
 1. 
@@ -15,4 +17,4 @@
 3. 
 
 ## Autoavaliação
-<!-- De 1 a 5, como você avalia seu desempenho neste exercício? Por quê? -->
+5
