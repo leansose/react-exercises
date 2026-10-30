@@ -1,13 +1,13 @@
 # O que aprendi
 
 ## O que fiz
-<!-- Descreva, com suas próprias palavras, o que você fez neste exercício. -->
+criei pasta utils com types.d.ts
 
 ## Dificuldades encontradas
 <!-- Quais problemas ou erros apareceram durante o exercício? -->
 
 ## O que aprendi
-<!-- O que você aprendeu com este exercício? -->
+Um arquivo types.d.ts global, organizando types e interfaces reutilizáveis para o projeto.
 
 ## 3 coisas que poderia ter feito para suprir as dificuldades
 1. 
@@ -15,4 +15,4 @@
 3. 
 
 ## Autoavaliação
-<!-- De 1 a 5, como você avalia seu desempenho neste exercício? Por quê? -->
+5
