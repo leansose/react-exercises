@@ -1,5 +1,6 @@
 import Button from "./components/button";
 import Card from "./components/card";
+import { MapArrowUpIcon } from '@solar-icons/react/bold-duotone/map-arrow-up'
 
 export default function App() {
 
@@ -14,7 +15,7 @@ export default function App() {
           <Button variant="warning">Click Here!</Button>
           <Button variant="info">Click Here!</Button>
           <Button variant="danger">Click Here!</Button>
-          <Button>Click Here!</Button>
+          <MapArrowUpIcon size={24} />
         </div>
       </Card>
     </main>
