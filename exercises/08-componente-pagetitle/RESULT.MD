@@ -1,7 +1,7 @@
 ﻿# RESULT.md — O que aprendi
 
 ## O que fiz
-<!-- Descreva, com suas próprias palavras, o que você fez neste exercício. -->
+criado componente PageTitle que recebe o titulo (string) que renderizado num header h1, testado depois na App
 
 ## Dificuldades encontradas
 <!-- Quais problemas ou erros apareceram durante o exercício? -->
@@ -15,4 +15,4 @@
 3. 
 
 ## Autoavaliação
-<!-- De 1 a 5, como você avalia seu desempenho neste exercício? Por quê? -->
+5
