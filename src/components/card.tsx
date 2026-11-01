@@ -6,8 +6,9 @@ interface CardProps {
 
 export default function Card({children }: CardProps) {
     return (
-        <section className="p-4 flex flex-col justify-center content-center text-center items-center w-full text-2xl text-white bg-red-500 rounded-2xl">
-            <div className="p-2 rounded-2xl border-2 border-dashed">{children}</div>
-        </section>
+    
+            <div className="bg-neutral-100 p-2 rounded-xl border border-neutral-200 flex flex-col gap-2 hover:border-neutral-300">
+                {children}
+            </div>
     )
 }
