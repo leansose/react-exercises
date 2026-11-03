@@ -1,8 +1,7 @@
-import Button from "./components/button";
 import Card from "./components/card";
 import PageTitle from "./components/pageTitle";
 import type { Trip } from "./utils/types.d.ts"
-import TripRow from "./components/tripRow";
+import TripList from "./components/tripList";
 import { useState } from "react";
 
 const trips: Trip[] = [
@@ -33,27 +32,18 @@ const trips: Trip[] = [
 ];
 
 export default function App() {
-  
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+
+  const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
 
   function handleSelect(id: string) {
-    setSelectedId((current) => (current === id ? null : id));
+    setSelectedTripId((current) => (current === id ? null : id));
   }
 
   return (
     <main className="mx-auto max-w-3xl space-y-4 p-4">
       <PageTitle title="Travel - Panel" />
       <Card>
-        <div className="p-2.5 bg-stone-300 rounded-md">
-          {trips.map((trip) => (
-            <TripRow
-              key={trip.id}
-              trip={trip}
-              selected={selectedId === trip.id}
-              onSelect={handleSelect}
-            />
-          ))}
-        </div>
+        <TripList trips={trips} selectedTripId={selectedTripId} onSelect={handleSelect} />
       </Card>
     </main>
   )
