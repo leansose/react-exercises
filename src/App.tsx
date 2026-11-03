@@ -1,8 +1,11 @@
 import Card from "./components/card";
 import PageTitle from "./components/pageTitle";
-import type { Trip } from "./utils/types.d.ts"
 import TripList from "./components/tripList";
+import Tab from "./components/tab";
+
 import { useState } from "react";
+
+import type { Trip } from "./utils/types.d.ts"
 
 const trips: Trip[] = [
   {

@@ -1,5 +1,7 @@
 export type TripStatus = "on-time" | "delayed" | "cancelled";
 
+export type TabLabels = "Compradas" | "Esgotadas" | "Canceladas" | "Favoritas";
+
 export interface Trip {
   id: string;
   origin: string;
