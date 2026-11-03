@@ -1,6 +1,6 @@
-type TripStatus = "on-time" | "delayed" | "cancelled";
+export type TripStatus = "on-time" | "delayed" | "cancelled";
 
-interface Trip {
+export interface Trip {
   id: string;
   origin: string;
   destination: string;
@@ -11,10 +11,4 @@ interface Trip {
   hasOutlets: boolean;
   almostFull: boolean;
   status: TripStatus;
-}
-
-export function estimatedTime(trip: Trip): number {
-  const departure = new Date(trip.departureDate).getTime();
-  const arrival = new Date(trip.arrivalDate).getTime();
-  return Math.round((arrival - departure) / 60000); // minutos
 }

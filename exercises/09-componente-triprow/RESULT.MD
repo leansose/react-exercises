@@ -1,13 +1,14 @@
 ﻿# RESULT.md — O que aprendi
 
 ## O que fiz
-<!-- Descreva, com suas próprias palavras, o que você fez neste exercício. -->
+Componente TripRow com função para formatar preço, data, tempo estimado
 
 ## Dificuldades encontradas
-<!-- Quais problemas ou erros apareceram durante o exercício? -->
+Tive dificuldade a organizar o layout com Tailwind
+A viagem não aparecia como selecionada, porque a `App` precisava de guardar esse estado.
 
 ## O que aprendi
-<!-- O que você aprendeu com este exercício? -->
+usar handleSelect e usar `useState` com a forma `setSelectedId((current) => (current === id ? null : id))` para alternar a seleção.
 
 ## 3 coisas que poderia ter feito para suprir as dificuldades
 1. 
@@ -15,4 +16,4 @@
 3. 
 
 ## Autoavaliação
-<!-- De 1 a 5, como você avalia seu desempenho neste exercício? Por quê? -->
+2
