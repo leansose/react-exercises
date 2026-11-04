@@ -1,8 +1,7 @@
 import { type ReactNode } from "react";
-import type { TabLabels } from "../utils/types.d.ts"
 
 interface TabProps {
-    label: TabLabels;
+    label: string;
     active: boolean;
     onClick: () => void;
     children: ReactNode;

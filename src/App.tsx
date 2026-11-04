@@ -1,11 +1,11 @@
 import Card from "./components/card";
 import PageTitle from "./components/pageTitle";
-import TripList from "./components/tripList";
-import Tab from "./components/tab";
+import TripTabs from "./components/tripTabs";
 
 import { useState } from "react";
 
 import type { Trip } from "./utils/types.d.ts"
+
 
 const trips: Trip[] = [
   {
@@ -46,7 +46,7 @@ export default function App() {
     <main className="mx-auto max-w-3xl space-y-4 p-4">
       <PageTitle title="Travel - Panel" />
       <Card>
-        <TripList trips={trips} selectedTripId={selectedTripId} onSelect={handleSelect} />
+        <TripTabs trips={trips} selectedTripId={selectedTripId} onSelect={handleSelect} />
       </Card>
     </main>
   )
